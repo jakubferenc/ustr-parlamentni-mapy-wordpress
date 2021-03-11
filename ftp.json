@@ -15,7 +15,6 @@
     "www/wp-content/themes/**/*",
     "www/wp-content/upgrade/**/*",
     "www/wp-content/uploads/**/*",
-    "scripts", "scripts/**/*",
     "**/*/.htaccess"
   ],
   "base": ".",
