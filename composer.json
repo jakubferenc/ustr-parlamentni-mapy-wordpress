@@ -1,0 +1,28 @@
+{
+    "name": "assemblage/assemblage-wordpress-starter",
+    "description": "A WordPress site, created by Assemblage design studio - assemblage.cz",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "wpackagist-plugin/classic-editor": "*",
+        "wpackagist-plugin/regenerate-thumbnails": "*",
+        "wpackagist-plugin/intuitive-custom-post-order": "*",
+        "wpackagist-plugin/custom-post-type-ui": "*",
+        "johnpbloch/wordpress": "*"
+    },
+    "extra": {
+        "wordpress-install-dir": "www/wordpress",
+        "installer-paths": {
+            "www/wp-content/plugins/{$name}": ["type:wordpress-plugin"],
+            "www/wp-content/themes/{$name}": ["type:wordpress-theme"],
+            "www/wp-content/mu-plugins/{$name}": ["type:wordpress-muplugin"]
+        },
+        "npm": {}
+      },
+      "scripts": {}
+}

@@ -1,0 +1,58 @@
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore composer
+vendor
+composer.lock
+
+# ignore node packages
+node_modules
+
+# ignore bower packages
+bower_components
+
+# ignore bootstrap
+bootstrap
+
+# ignore core wordpress folders
+www/wordpress/*
+www/wp-content/plugins/*
+www/wp-content/mu-plugins/*
+
+# ignore everything in the "wp-content" directory, except:
+# themes
+!wordpress/wp-config.php
+!wordpress/wp-config/
+!wordpress/wp-content/
+wordpress/wp-content/*
+!wordpress/wp-content/themes
+
+

@@ -1,0 +1,29 @@
+{
+  "deploy" : true,
+  "proxy" : "https://ustr-parlamentni-mapy.jakubferenc.cz",
+  "globs" : [
+    "./*", "./.*",
+    "!.git", "!.vscode", "!node_modules", "!.git/**/*", "!node_modules/**/*",
+    "!www/wordpress", "!www/wp-content/plugins",
+    "www/.*",
+    "www/*.*",
+    "www/wp-config/**/*",
+    "www/wp-content/themes/**/*",
+    "www/wp-content/uploads/**/*",
+    "www/wp-content/*.*",
+    "www/wp-content/languages/**/*",
+    "www/wp-content/themes/**/*",
+    "www/wp-content/upgrade/**/*",
+    "www/wp-content/uploads/**/*",
+    "scripts", "scripts/**/*",
+    "**/*/.htaccess"
+  ],
+  "base": ".",
+  "ftp" : {
+    "host" : "wellnessfood.savana-hosting.cz",
+    "user" : "assemblage",
+    "password" : "A$$ervaz258FTP!",
+    "dir" : "/jakubferenc.cz/ustr-parlamentni-mapy",
+    "time" : 5000
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "host": "ssh.wellnessfood.savana-hosting.cz",
+  "port": "9136",
+  "username": "user",
+  "privateKey": "/Users/jakubferenc/.ssh/id_rsa"
+}

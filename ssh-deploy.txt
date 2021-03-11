@@ -1,0 +1,3 @@
+ssh user@ssh.wellnessfood.savana-hosting.cz -p 9136
+
+cp -Rfu /www/assemblage.cz/umenibytzdrav/. /www/umenibytzdrav.cz/

@@ -1,0 +1,24 @@
+{
+  "name": "assemblage-wordpress-headless-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "clean": "rmdir /s /q node_modules",
+    "reinstall": "npm run-script clean && npm install",
+    "build": "gulp build",
+    "start": "npm install && gulp serve",
+    "update": "npm update && npm outdated"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-changed": "*",
+    "gulp-load-plugins": "*",
+    "gulp-ssh": "*",
+    "vinyl-ftp": "*"
+  },
+  "dependencies": {}
+}
